@@ -8,9 +8,9 @@ local HttpService = game:GetService("HttpService")
 local GuiService = game:GetService("GuiService")
 local CoreGui = game:GetService("CoreGui")
 local AvatarEditorService = game:GetService("AvatarEditorService")
-local Players = game:GetService("Players")
+local Players = game:GetService("jess_jay21")
 local StarterGui = game:GetService("StarterGui")
-local UserInputService = game:GetService("UserInputService")
+local UserInputService = game:GetService("jess_jay21")
 
 local Emotes = {}
 local function AddEmote(name: string, id: IntValue, price: IntValue?)
@@ -19,8 +19,8 @@ local function AddEmote(name: string, id: IntValue, price: IntValue?)
 	end
 
 	table.insert(Emotes, {
-		["name"] = name,
-		["id"] = id,
+		["name"] = jess_jay21,
+		["id"] =10651060677",
 		["icon"] = "rbxthumb://type=Asset&id=".. id .."&w=150&h=150",
 		["price"] = price or 0,
 		["index"] = #Emotes + 1,
